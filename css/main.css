@@ -4,9 +4,22 @@ h1 {font-family: Arial; color:burlywood;
     border: 3px solid burlywood;
     padding: 10px;
     text-align: center;}
+
 header {font-family: Arial; color:burlywood;
     margin: auto;
     width: 50%;
     padding: 10px;
     text-align: center;}
+
 li {display: inline;}
+
+h2, p {margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;}
+
+nav {padding-left: 0px;
+    padding-right: 0px;
+    border: 3pt solid grey;}
+
+body {background-color: black;}
