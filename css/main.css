@@ -1,15 +1,14 @@
-h1 {font-family: Arial; color:burlywood;
+h1 {font-family: Arial; color:white;
     margin: auto;
     width: 50%;
     padding: 10px;
     text-align: center;}
 
-header {font-family: Arial; color:burlywood;
+header {font-family: Arial; color:white;
     margin: auto;
-    width: 50%;
     padding: 10px;
-    border: 3px solid burlywood;
-    text-align: center;}
+    text-align: center;
+    background-color: burlywood;}
 
 li {display: inline;}
 
@@ -18,31 +17,45 @@ h2, p {margin: auto;
     padding: 10px;
     text-align: center;}
 
-h2.zero {color: springgreen;}
-h2.one {color: red;}
-h2.two {color: yellow;}
+section.zero {background-color: springgreen;}
+section.one {background-color: red;}
+section.two {background-color: yellow;}
 
-p.zero {color: springgreen;}
-p.one {color: red;}
-p.two {color: yellow;}
-p.three {color: burlywood;}
+h2.zero {color:springgreen;
+        font-family: fantasy;}
+h2.one {color:red;
+        font-family: fantasy;}
+h2.two {color:yellow;
+        font-family: fantasy;}
+h2.three {color: red;}
+
+p.zero {background-color: springgreen;
+    font-family: cursive;color: black;}
+p.one {background-color: red;
+        font-family: cursive;color: black;}
+p.two {background-color: yellow;
+    font-family: cursive;color: black;}
+p.three {background-color: blue;
+        font-family: cursive; color: black;}
+P#three {background-color: blue;
+        font-family: cursive;}
 
 nav {padding-left: 0px;
     padding-right: 0px;
     width: auto;}
-nav.zero {border: 3pt solid white;}
+nav.zero {border: 3pt solid white;
+            width: auto;}
 nav.one {border: 3pt solid white}
 
-body {background-color: black;}
+body {background-color: cornflowerblue;}
 
-p {margin: auto;
-    width: 50%;
+p.zero,p.one,p.two {margin: auto;
+    width: 20%;
     padding: 10px;
     text-align: center;}
 
-footer {font-family: Arial; color:burlywood;
+footer {font-family: Arial; color:white;
     margin: auto;
-    width: 50%;
     padding: 10px;
-    border: 3pt solid burlywood;
-    text-align: center;}
+    text-align: center;
+    background-color: burlywood;}
