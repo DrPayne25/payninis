@@ -24,4 +24,8 @@ nav {padding-left: 0px;
 
 body {background-color: black;}
 
-p {color: green}
+p {color: green;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;}
