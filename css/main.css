@@ -18,13 +18,27 @@ h2, p {margin: auto;
     padding: 10px;
     text-align: center;}
 
+h2.zero {color: springgreen;}
+h2.one {color: red;}
+h2.two {color: yellow;}
+
+p.zero {color: springgreen;}
+p.one {color: red;}
+p.two {color: yellow;}
+p.three {color: burlywood;}
+
 nav {padding-left: 0px;
     padding-right: 0px;
     border: 3pt solid grey;}
 
 body {background-color: black;}
 
-p {color: green;
+p {margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;}
+
+footer {font-family: Arial; color:burlywood;
     margin: auto;
     width: 50%;
     padding: 10px;
