@@ -1,0 +1,12 @@
+h1 {font-family: Arial; color:burlywood;
+    margin: auto;
+    width: 50%;
+    border: 3px solid burlywood;
+    padding: 10px;
+    text-align: center;}
+header {font-family: Arial; color:burlywood;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;}
+li {display: inline;}
