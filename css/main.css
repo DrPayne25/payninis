@@ -8,24 +8,36 @@ header {font-family: Arial; color:white;
     margin: auto;
     padding: 10px;
     text-align: center;
-    background-color: burlywood;}
+    background-color: burlywood;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    height: 100%;}
+
+body {background-color: cornflowerblue;
+        width: auto;
+        overflow-x: hidden;}
 
 li {display: inline;}
 
 a {text-decoration: none;}
 
 h2, p {margin: auto;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     text-align: center;}
 
-section.zero {background-color: springgreen;}
-section.one {background-color: red;}
-section.two {background-color: yellow;}
+section.zero {background-color: springgreen;
+                border: solid black;}
+section.one {background-color: red;
+                border: solid black;}
+section.two {background-color: yellow;
+                border: solid black;}
+
+h {text-decoration: none;}
 
 h2.zero {color:springgreen;
         font-family: fantasy;}
-h2.one {color:red;
+h2.one {color: yellow;
         font-family: fantasy;}
 h2.two {color:yellow;
         font-family: fantasy;}
@@ -49,8 +61,6 @@ nav.zero {border: 3pt solid white;
             width: auto;}
 nav.one {border: 3pt solid white;}
 
-body {background-color: cornflowerblue;}
-
 p.zero,p.one,p.two {margin: auto;
     width: 20%;
     padding: 10px;
@@ -60,4 +70,5 @@ footer {font-family: Arial; color:white;
     margin: auto;
     padding: 10px;
     text-align: center;
-    background-color: burlywood;}
+    background-color: burlywood;
+    height: auto;}
