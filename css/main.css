@@ -13,7 +13,7 @@ header {font-family: Arial; color:white;
     border-top-right-radius: 70%;
     height: 100%;}
 
-body {background-color: cornflowerblue;
+body {background-image: url('../images/background.png');
         width: auto;
         overflow-x: hidden;}
 
@@ -26,11 +26,11 @@ h2, p {margin: auto;
     padding: 10px;
     text-align: center;}
 
-section.zero {background-color: springgreen;
+section.zero {background-color: yellow;
                 border: solid black;}
-section.one {background-color: red;
+section.one {background-color: green;
                 border: solid black;}
-section.two {background-color: yellow;
+section.two {background-color: red;
                 border: solid black;}
 
 h {text-decoration: none;}
