@@ -26,13 +26,13 @@ section#Breakfast {background-color: springgreen;
                     border-radius: 20%;}
 section#Lunch {background-color:yellow;
                 width: 70%;
-                margin-left: 380px;
+                margin-left: 150px;
                 text-decoration: none;
                 border-radius: 20%;}
 section#Dinner {background-color: red;                    
                 width: 70%;
                 text-decoration: none;
-                margin-left: 400px;
+                margin-left: 300px;
                 border: solid;
                 border-radius: 20%}
 
