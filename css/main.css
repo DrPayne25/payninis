@@ -13,11 +13,7 @@ header {font-family: Arial; color:white;
     border-top-right-radius: 70%;
     height: 100%;}
 
-<<<<<<< HEAD
 body {background-image: url("../images/background.png"); /*takenfromfoodwarswiki.com*/
-=======
-body {background-image: url("./images/background.png");
->>>>>>> 5f14b233786620ef47ba80c962882e5336b21d32
         width: auto;
         overflow-x: hidden;}
 
