@@ -8,7 +8,9 @@ header {font-family: Arial; color:white;
     height: 100%;}
 
 body {background-image: url("../images/foodback.png");
-        width: auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
         overflow-x: hidden;}
 
 li {display: inline;}
