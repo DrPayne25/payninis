@@ -57,7 +57,7 @@ function ask(){
 }   
     
 
-/*/Function for getting into the website by validating an answer
+//Function for getting into the website by validating an answer
 function validationRequest() {
     
     //logic for the above function
@@ -70,4 +70,4 @@ function validationRequest() {
     }else if (validationTest === null);{
         alert("Wow You don't Remember Check the Reading-Notes to find out!");
     }
-}*/
+}
