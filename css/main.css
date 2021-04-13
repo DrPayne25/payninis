@@ -9,7 +9,6 @@ header {font-family: Arial; color:white;
 
 body {background-image: url("../images/foodback.png");
         background-repeat: no-repeat;
-        background-size: 2700px 2000px;
         width: 100%;
         height: 100%;
         overflow-x: hidden;}
@@ -25,6 +24,7 @@ section {width: 50%;
 section#Breakfast {background: linear-gradient(to top, #a1c6ef, #0387fb);
                     width: 70%;
                     text-decoration: none;
+                    text-size-adjust: 40px;
                     border: solid;
                     border-radius: 20%;}
 section#Lunch {background-color:yellow;
