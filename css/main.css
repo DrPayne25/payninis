@@ -63,7 +63,7 @@ h2.two {color:yellow;
 h2.three {color: red;}
 
 p.zero {background: linear-gradient(to bottom, #F9F9E1, #FCFF05);
-    font-family: cursive;color: black;}
+    font-family: 'Courier New', Courier, monospace;color: black;}
 p.one {background-color: springgreen;
         font-family: cursive;color: black;}
 p.two {background-color: yellow;

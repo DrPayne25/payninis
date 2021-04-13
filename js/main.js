@@ -1,5 +1,5 @@
 /*Vinsmoke Variable declares himself(Variables are Declared any that are repeated are listed below any exceptions
-    will be written in the function).*/
+    will be written in the function).
     var userId = prompt("Welcome to Payninis! What's your name?");
     var firstTime = confirm("Is this your first time at Payninis");
     //var validationQuestion = prompt("what is Payne's Addiction game?");
