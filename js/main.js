@@ -1,8 +1,7 @@
     var userId = prompt("Welcome to Payninis! What's your name?");
+    var firstTime = confirm("Is this your first time at Payninis");
     var day = new Date();
     var currentTime = day.getHours();
-    var firstTime = confirm("Is this your first time at Payninis")
-
     
 /*Variable Vinsmoke declares himself.*/
 function welcomeHere() {
@@ -18,18 +17,19 @@ function welcomeHere() {
         welcome = greeting+userId+' are you looking to join us for Breakfast';
     }
 
-    return('<h1>' + welcome + '</h1>');}
+    return'<h1>' + welcome + '</h1>';}
 
+    //Function will ask customer if they have been here before
 function thankYou() {
     var thankYouMessage;
-
-    if (firstTime = true){
-        thankYouMessage = 'option 1' + userId;
-    }else if (firstTime = false){
-        thankYouMessage = "option 2" + userId;
+//This Logic takes the confirm prompt and issues a thank you
+    if (firstTime === false){
+        thankYouMessage = "Thank you for coming back " +userId + " you know what to do!";
+    }else {
+        thankYouMessage = "Thank you for deciding to try out Payninis " +userId + " take a look at one of our menu specials below";
     }
 
-    return'(<h1>' +thankYouMessage + '</h1>'
+    return'<h1>' +thankYouMessage + '</h1>'
 }
 
 
