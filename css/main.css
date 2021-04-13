@@ -20,9 +20,9 @@ a {text-decoration: none;}
 
 section {width: 50%;
         text-decoration: none;
-        border: solid}
+        border: solid;}
 
-section#Breakfast {background-color: springgreen;
+section#Breakfast {background: linear-gradient(to top, #a1c6ef, #0387fb);
                     width: 70%;
                     text-decoration: none;
                     border: solid;
@@ -32,7 +32,7 @@ section#Lunch {background-color:yellow;
                 margin-left: 150px;
                 text-decoration: none;
                 border-radius: 20%;}
-section#Dinner {background-color: red;                    
+section#Dinner {background-color: plum;                    
                 width: 70%;
                 text-decoration: none;
                 margin-left: 300px;
@@ -52,7 +52,7 @@ h2, p {margin: auto;
         padding: 10px;
         text-align: center;}
 h3 {font-family: cursive; color: black;
-    font-size: '500';}
+    font-size: '200';}
 
 h2.zero {color:springgreen;
         font-family: fantasy;}
@@ -62,7 +62,7 @@ h2.two {color:yellow;
         font-family: fantasy;}
 h2.three {color: red;}
 
-p.zero {background-color: red;
+p.zero {background: linear-gradient(to bottom, #F9F9E1, #FCFF05);
     font-family: cursive;color: black;}
 p.one {background-color: springgreen;
         font-family: cursive;color: black;}
