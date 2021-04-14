@@ -1,6 +1,6 @@
 /*Vinsmoke Variable declares himself(Variables are Declared any that are repeated are listed below any exceptions
-    will be written in the function).*/
-    var userId = prompt("Welcome to Payninis! What's your name?");
+    will be written in the function).*
+    var buttercup = prompt("Welcome to Payninis! What's your name?");
     var firstTime = confirm("Is this your first time at Payninis");
     //var validationQuestion = prompt("what is Payne's Addiction game?");
     
@@ -13,11 +13,11 @@ function welcomeHere() {
 
     //Welcome Greeting Options
     if (currentTime > 18){
-        welcome = greeting+userId+ ' are you looking to join us for Dinner?'; 
+        welcome = greeting+buttercup+ ' are you looking to join us for Dinner?'; 
     }else if (currentTime > 12){
-        welcome = greeting+userId+' are you looking to join us for Lunch?';
+        welcome = greeting+buttercup+' are you looking to join us for Lunch?';
     }else if (currentTime >= 0){
-        welcome = greeting+userId+' are you looking to join us for Breakfast?';
+        welcome = greeting+buttercup+' are you looking to join us for Breakfast?';
     }
     return'<h1>' + welcome + '</h1>';}
 
@@ -27,9 +27,9 @@ function thankYou() {
 
     //This Logic takes the confirm prompt and issues a thank you
     if (firstTime === false){
-        thankYouMessage = "Thank you for coming back " +userId + " you know what to do!";
+        thankYouMessage = "Thank you for coming back " +buttercup + " you know what to do!";
     }else {
-        thankYouMessage = "Thank you for deciding to try out Payninis for the first time " +userId + " take a look at one of our menu specials below";
+        thankYouMessage = "Thank you for deciding to try out Payninis for the first time " +buttercup + " take a look at one of our menu specials below";
     }
     return'<h1>' +thankYouMessage + '</h1>'}
 
@@ -41,24 +41,73 @@ function ask(){
     if(answer=="HearthStone"){
         alert("Correct you either know me, listened to me, or went to the Reading-Notes");
         return;
-    }else if (answer =="Hearthstone"){
+    }if (answer =="Hearthstone"){
         alert('Correct you either know me, listened to me, or went to the Reading-Notes');
         return;
-    }else if (answer =='hearthstone'){
+    }if (answer =='hearthstone'){
         alert('Correct you either know me, listened to me, or went to the Reading-Notes');
         return;
-    }else if (answer == null){
+    }if (answer == null){
         alert("Nice Try Bet You Thought That Wold Work Try Again!")
         ask();
     }else {
         alert("Try Looking on My Reading-Notes Page for the answer");
         ask(); 
     }
-}   
+}
+/*function sayHi() {
+    document.write('Hi!');
+}
+
+    for(var i = 10; 10 < 0; i--) {
+        sayHi();
+    }
+    return{
+
+}*/
+
+
+
+
+
+/*let getItem = function () {
+    console.log(getItem)
+    let order = prompt('What would you like to order?')
+    let item;
+
+    while (order !== 'Burger' && order !== 'Steak') {
+        order = prompt('Pleaes enter "Burger" or "Steak"');
+    }
+    if (order === 'Burger') {
+        item = '<img src="">';
+    } else if (order === 'Steak') {
+        item = '<img src=';
+    }
+    let howMany = function () {
+        let count = prompt('How many do you want to order?');
+        while (count === "1" || isNaN(count)) {
+            count = prompt('Please enter a number. How many do you want?');
+        }
+    }
+    let showOrder = function () {
+        let item = getItem();
+        let total = howMany();
+        let result = "";
+        for (let i =0; i < total; i++) {
+            result = result + '<p>Model #' + i + " " + item + '</p>';
+        }
+        return result;
+    }
+}
+/*var howMany = document.getElementById('howMany')
+for (var i = 0; i < 8; i++) {
+    var i = parseInt(prompt("How people are Joining you today"));
+    var howMany_img_src = "images/face.png";
     
+} */
 
 //Function for getting into the website by validating an answer
-function validationRequest() {
+/*function validationRequest() {
     
     //logic for the above function
     if (validationTest === "Hearthstone"){
@@ -69,5 +118,4 @@ function validationRequest() {
         alert("correct answer!");
     }else if (validationTest === null);{
         alert("Wow You don't Remember Check the Reading-Notes to find out!");
-    }
-}
+    }*/
