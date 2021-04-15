@@ -55,67 +55,38 @@ function ask(){
         ask(); 
     }
 }
-
-function howManyEggs(){
-    console.log(howManyEggs)
-    var element = document.getElementById('face')
+//Creates an image of the breakfast sandwich times the amount you want
+function breakfastAmount(){
+    console.log(breakfastAmount)
+    var element = document.getElementById('breakfastimage')
     var eggs = prompt("We see you would like a Queen of Breakfast how many? Enter a whole positive number up to 3")
      while (eggs != '1' && eggs != '2' && eggs != '3'){
          eggs = prompt("I see you didn't read the message try a number between 1 & 3");
      } 
      for (i = 0; i < eggs; i++){
-         element.innerHTML = element.innerHTML + '<img src=images/foodwarslunch-f.jpg height = 30 width = 30>' +(i+1);
+         element.innerHTML = element.innerHTML + '<img src=images/foodwarsbreakfast-f.png height = 30 width = 30>' +(i+1);
     }
 }
 
-
-
-/*let getItem = function () {
-    console.log(getItem)
-    let order = prompt('What would you like to order?')
-    let item;
-
-    while (order !== 'Burger' && order !== 'Steak') {
-        order = prompt('Pleaes enter "Burger" or "Steak"');
-    }
-    if (order === 'Burger') {
-        item = '<img src="">';
-    } else if (order === 'Steak') {
-        item = '<img src=';
-    }
-    let howMany = function () {
-        let count = prompt('How many do you want to order?');
-        while (count === "1" || isNaN(count)) {
-            count = prompt('Please enter a number. How many do you want?');
-        }
-    }
-    let showOrder = function () {
-        let item = getItem();
-        let total = howMany();
-        let result = "";
-        for (let i =0; i < total; i++) {
-            result = result + '<p>Model #' + i + " " + item + '</p>';
-        }
-        return result;
+//Creates an image of the lunch sandwich times the amount you want
+function lunchAmount(){
+    var element = document.getElementById('lunchimage')
+    var eggs = prompt("We see you would like a Queen of Breakfast how many? Enter a whole positive number up to 3")
+     while (eggs != '1' && eggs != '2' && eggs != '3'){
+         eggs = prompt("I see you didn't read the message try a number between 1 & 3");
+     } 
+     for (i = 0; i < eggs; i++){
+         element.innerHTML = element.innerHTML + '<img src=images/foodwarslunch-f.png height = 30 width = 30>' +(i+1);
     }
 }
-/*var howMany = document.getElementById('howMany')
-for (var i = 0; i < 8; i++) {
-    var i = parseInt(prompt("How people are Joining you today"));
-    var howMany_img_src = "images/face.png";
-    
-} */
-
-//Function for getting into the website by validating an answer
-/*function validationRequest() {
-    
-    //logic for the above function
-    if (validationTest === "Hearthstone"){
-        alert("correct answer!");
-    }else if (validationTest === "HearthStone"){
-        alert("correct answer!");
-    }else if (validationTest === "hearthstone"){
-        alert("correct answer!");
-    }else if (validationTest === null);{
-        alert("Wow You don't Remember Check the Reading-Notes to find out!");
-    }*/
+//Creates an image of the lunch sandwich times the amount you want
+function dinnerAmount(){
+    var element = document.getElementById('dinnerimage')
+    var eggs = prompt("We see you would like a Queen of Breakfast how many? Enter a whole positive number up to 3")
+     while (eggs != '1' && eggs != '2' && eggs != '3'){
+         eggs = prompt("I see you didn't read the message try a number between 1 & 3");
+     } 
+     for (i = 0; i < eggs; i++){
+         element.innerHTML = element.innerHTML + '<img src=images/foodwarsdinner-f.png height = 30 width = 30>' +(i+1);
+    }
+}
