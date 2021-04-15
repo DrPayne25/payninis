@@ -2,6 +2,7 @@
     will be written in the function).*/
     var buttercup = prompt("Welcome to Payninis! What's your name?");
     var firstTime = confirm("Is this your first time at Payninis");
+    var question = prompt("What is Payne's Addiction game?")
     //var validationQuestion = prompt("what is Payne's Addiction game?");
     
 //Function name createWelcome is created and defined in the next code block    
@@ -33,9 +34,31 @@ function thankYou() {
     }
     return'<h1>' +thankYouMessage + '</h1>'}
 
+function enter(){
+    while (question !== 'HearthStone' && question !== 'Hearthstone' && question !== 'hearthstone'){
+        question = prompt("Please check the code in GitHub to find one of the answers");
+    }
+    if (question == "HearthStone"){
+        alert('Correct you must have looked in the terminal to find the answer or you know me hehehe');
+        return;
+    }
+    if (question == "Hearthstone"){
+        alert('Correct you must have looked in the terminal to find the answer or you know me hehehe');
+        return;
+    }
+    if (question == "hearthstone"){
+        alert('Correct you must have looked in the terminal to find the answer or you know me hehehe');
+        return;
+    }
+    else {
+        question = alert("You will need to find the answer for this")
+        return;
+    }
+    }
+    
 //This Function will validate that you looked at my Reading-Notes for my Addiction Game
 //I Start off by running my function because I need this to keep popping up until I return
-ask();
+/*ask();
 function ask(){
     var answer=prompt("What is Payne's Addiction game?");
     if(answer=="HearthStone"){
@@ -54,7 +77,7 @@ function ask(){
         alert("Try Looking on My Reading-Notes Page for the answer");
         ask(); 
     }
-}
+}*/
 //Creates an image of the breakfast sandwich times the amount you want
 function breakfastAmount(){
     console.log(breakfastAmount)
