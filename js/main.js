@@ -1,5 +1,5 @@
 /*Vinsmoke Variable declares himself(Variables are Declared any that are repeated are listed below any exceptions
-    will be written in the function).*
+    will be written in the function).*/
     var buttercup = prompt("Welcome to Payninis! What's your name?");
     var firstTime = confirm("Is this your first time at Payninis");
     //var validationQuestion = prompt("what is Payne's Addiction game?");
@@ -55,18 +55,18 @@ function ask(){
         ask(); 
     }
 }
-/*function sayHi() {
-    document.write('Hi!');
-}
 
-    for(var i = 10; 10 < 0; i--) {
-        sayHi();
+function howManyEggs(){
+    console.log(howManyEggs)
+    var element = document.getElementById('face')
+    var eggs = prompt("We see you would like a Queen of Breakfast how many? Enter a whole positive number up to 3")
+     while (eggs != '1' && eggs != '2' && eggs != '3'){
+         eggs = prompt("I see you didn't read the message try a number between 1 & 3");
+     } 
+     for (i = 0; i < eggs; i++){
+         element.innerHTML = element.innerHTML + '<img src=images/foodwarslunch-f.jpg height = 30 width = 30>' +(i+1);
     }
-    return{
-
-}*/
-
-
+}
 
 
 

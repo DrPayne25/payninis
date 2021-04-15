@@ -51,7 +51,7 @@ h2, p {margin: auto;
         padding: 10px;
         text-align: center;}
 h3 {font-family: cursive; color: black;
-    font-size: '200';}
+    font-size: '100px';}
 
 h2.zero {color:springgreen;
         font-family: fantasy;}
@@ -62,11 +62,12 @@ h2.two {color:yellow;
 h2.three {color: red;}
 
 p.zero {background: linear-gradient(to top, plum, #bacbda);
+        background-position: 50%;
     font-family: 'Courier New', Courier, monospace;color: black;}
-p.one {background: linear-gradient(to top, #a1c6ef, #0387fb);
-        font-family: cursive;color: black;}
+p.one {background: linear-gradient(to bottom, #a1c6ef, #0387fb);
+        font-family: 'Courier New', Courier, monospace;color: black;}
 p.two {background: linear-gradient(to bottom, #F9F9E1, #FCFF05);
-    font-family: cursive;color: black;}
+    font-family: 'Courier New', Courier, monospace;color: black;}
 p.three {background-color: blue;
         font-family: cursive; color: black;}
 P#three {background-color: blue;
